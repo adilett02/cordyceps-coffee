@@ -24,10 +24,10 @@
 .arabica-container {
     position: relative;
     p {
-      color: white;
-      position: relative;
+        color: white;
+        position: relative;
     }
-  }
+}
 // /*******************************/
 // /******* Experience CSS ********/
 // /*******************************/
@@ -258,6 +258,7 @@ h4.about-heading {
         color: #fff;
     }
     .btn2 {
+        display: inline-flex;
         padding: 12px 25px;
         font-size: 14px;
         font-weight: 600;
@@ -283,9 +284,9 @@ h4.about-heading {
         padding-bottom: 50px;
     }
 }
-@media (max-width: 767px) { 
-    .arabica-block{
-        &::before{
+@media (max-width: 767px) {
+    .arabica-block {
+        &::before {
             opacity: 0.6;
         }
     }
@@ -301,7 +302,7 @@ h4.about-heading {
         font-size: 18px;
         font-weight: normal;
     }
-    .arabica-block{
+    .arabica-block {
         padding: 100px 0;
     }
 }

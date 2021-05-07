@@ -33,6 +33,12 @@
     }
   }
 }
+.positive-text {
+  color: $primaryColor;
+}
+.negative-text {
+  color: #e03e2d;
+}
 
 @media (max-width: 576px) {
   .social__list {
